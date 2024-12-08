@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
-csv_file_path = 'iris.csv'
+csv_file_path = 'Iris.csv'
 data = pd.read_csv(csv_file_path)
 
 X = data.drop(columns=['Species','Id'])  
